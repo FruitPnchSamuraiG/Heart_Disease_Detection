@@ -1,4 +1,4 @@
-# SC1015 Mini Project
+#  Mini Project
 ![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue) ![kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)
 ![image alt text](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/introgid.gif)
 ## Introduction
