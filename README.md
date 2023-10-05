@@ -1,18 +1,16 @@
-# SC1015 Mini Project
+#  Mini Project
 ![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue) ![kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)
-![image alt text](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/introgid.gif)
+
 ## Introduction
 Heart disease deaths have been rising in Singapore (Singapore Heart Foundation, n.d.) and detecting cardiovascular disease (CVD) early can help to manage its entailing consequences (Sarrafzadegan & Mohammmadifard, 2019).
 
-Our model finds its main uses in 2 applications. 
+The model finds its main uses in 2 applications. 
 
 First, for more targeted identification of candidates for health screening. Our model can be integrated into HealthHub, a mobile application by the government, to allow users to do a self-assessment for their Cardiovascular Diseasee risk. Users who have been found to be at high risk of Cardiovascular Disease can then be recommended to go for health screening for further follow-up actions to be taken. The data for this can be updated into HealthHub through the integration of Health applications that are already available and widely used for regular monitoring on both iOS and Android platforms.
 
 Second, for medical triaging at healthcare institutions so that patients who are at higher risk of cardiovascular disease complications can be attended to faster. This could come in the form of earlier medical appointment slots or priority queues thereby reducing the chances of a severe event from occurring.
 
-![image alt text](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/applications.gif)
-##### Video
-Our video can be accessed here: https://youtu.be/Wj-rIJu2epg
+
 ## Data Processing
 Before processing the data, it should be noted that there are a couple different types of inputs:
 - Objective: Factual information;
@@ -33,23 +31,19 @@ The data is organised into multiple columns representing various factors. These 
 - Physical activity | Subjective Feature | active | binary |
 - Presence or absence of cardiovascular disease | Target Variable | cardio | binary |
 
-After importing the data, we first removed all the duplicates by comparing ID values. This removed 24 values.
+After importing the data,  first removed all the duplicates by comparing ID values. This removed 24 values.
 
-After that, we modified the gender column to represent male and female as well as the age column to represent age in terms of years instead of days.
+After that,  modified the gender column to represent male and female as well as the age column to represent age in terms of years instead of days.
 
 From here we moved to some basic EDA and Data Cleaning. Visualising the correlation between variables in the form of a heatmap gave us this:
 
-![Heatmap](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/iniCorr.png)
-
 #### This proves that cardiovascular disease is a compound issue with many factors.
 
-From here, we moved on to cleaning the data to better represent some of these correlations. The steps taken were:
+From here, moved on to cleaning the data to better represent some of these correlations. The steps taken were:
 
 1) Adjusting for outliers of the height and weight variables by comparing the variables to each other and to the age of the individual. Further justification through violinplots revealed that there are 322 outliers which were removed.
 
 2) Adjusting for blood pressure, we compared blood pressure against the world average and clinically understoof ranges of optimality for systolic and diastolic blood pressure. After that, through the verification using both box and violin plots, we were able to identify 1479 values that were considered to be outliers which were also removed.
-
-![Blood_Pressure](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/bloodpres.jpg)
 
 #### From here, we could conduct further analysis: 
 
@@ -57,9 +51,6 @@ First, by plotting out the categorical variable of "cardio" in the form of a pie
 
 Second, by analysing the new dataset, various statistics such as the mean age of patients, gender ratio, mean height, mean weight etc. were able to be derived. Interestingly, these values are reflective of normal everyday figures of large population groups.
 
-Third, by comparing the new data's correlation with the old through the use of the heatmap, we get this:
-
-![Heatmap](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/finCorr.png)
 
 This highlights the presence of Systolic and Diastolic blood pressure playing an important role in determining if an individual would have a cardiac episode or not. However, neither of the two variables guaranteed it. 
 
@@ -120,22 +111,9 @@ This can help to save time when using the model, which could prove crucial in th
 
 
 ## Conclusion
-We evaluated the 5 models and we chose KNN as our model. We firmly believe that it can achieve good accuracy in predicting cardiovascular disease.
+Evaluated the 5 models and we chose KNN as our model. We firmly believe that it can achieve good accuracy in predicting cardiovascular disease.
 
 
 ## Installation
 Clone the repository and open the ipynb file on Jupyter Notebook.
-
-## License
-MIT
-
-## Our Team
-![image alt text](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/team.gif)
-
-## References and Citations
-Singapore Heart Foundation. (n.d.). Heart disease statistics. Singapore Heart Foundation. Retrieved April 13, 2023, from https://www.myheart.org.sg/health/heart-disease-statistics/ 
-
-Kondo, T., Nakano, Y., Adachi, S., & Murohara, T. (2019). Effects of tobacco smoking on cardiovascular disease. Circulation Journal, 83(10), 1980-1985.
-
-Sarrafzadegan, N., & Mohammmadifard, N. (2019). Cardiovascular disease in Iran in the last 40 years: prevalence, mortality, morbidity, challenges and strategies for cardiovascular prevention. Archives of Iranian medicine, 22(4), 204-210.
 
