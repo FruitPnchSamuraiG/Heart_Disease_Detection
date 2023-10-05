@@ -1,18 +1,16 @@
 #  Mini Project
 ![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue) ![kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)
-![image alt text](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/introgid.gif)
+
 ## Introduction
 Heart disease deaths have been rising in Singapore (Singapore Heart Foundation, n.d.) and detecting cardiovascular disease (CVD) early can help to manage its entailing consequences (Sarrafzadegan & Mohammmadifard, 2019).
 
-Our model finds its main uses in 2 applications. 
+The model finds its main uses in 2 applications. 
 
 First, for more targeted identification of candidates for health screening. Our model can be integrated into HealthHub, a mobile application by the government, to allow users to do a self-assessment for their Cardiovascular Diseasee risk. Users who have been found to be at high risk of Cardiovascular Disease can then be recommended to go for health screening for further follow-up actions to be taken. The data for this can be updated into HealthHub through the integration of Health applications that are already available and widely used for regular monitoring on both iOS and Android platforms.
 
 Second, for medical triaging at healthcare institutions so that patients who are at higher risk of cardiovascular disease complications can be attended to faster. This could come in the form of earlier medical appointment slots or priority queues thereby reducing the chances of a severe event from occurring.
 
-![image alt text](https://github.com/sheldor07/dsai-mini-project/blob/main/readmefiles/applications.gif)
-##### Video
-Our video can be accessed here: https://youtu.be/Wj-rIJu2epg
+
 ## Data Processing
 Before processing the data, it should be noted that there are a couple different types of inputs:
 - Objective: Factual information;
