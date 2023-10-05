@@ -1,9 +1,7 @@
 #  Mini Project
 ![python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue) ![kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white)
 
-## Introduction
-Heart disease deaths have been rising in Singapore (Singapore Heart Foundation, n.d.) and detecting cardiovascular disease (CVD) early can help to manage its entailing consequences (Sarrafzadegan & Mohammmadifard, 2019).
-
+# About
 The model finds its main uses in 2 applications. 
 
 First, for more targeted identification of candidates for health screening. Our model can be integrated into HealthHub, a mobile application by the government, to allow users to do a self-assessment for their Cardiovascular Diseasee risk. Users who have been found to be at high risk of Cardiovascular Disease can then be recommended to go for health screening for further follow-up actions to be taken. The data for this can be updated into HealthHub through the integration of Health applications that are already available and widely used for regular monitoring on both iOS and Android platforms.
